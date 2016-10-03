@@ -17,16 +17,16 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var header_1 = require("../header/header");
-var home_1 = require("../home/home");
 var intro_1 = require("../intro/intro");
+var navbar_1 = require("../nabvar/navbar");
 var HomeComponent = (function () {
     function HomeComponent() {
     }
     HomeComponent = __decorate([
         core_1.Component({
             selector: 'home',
-            template: '<main-header></main-header><intro></intro>',
-            directives: [header_1.MainHeaderComponent, home_1.HomeComponent, intro_1.IntroComponent]
+            template: '<navbar></navbar><main-header></main-header><intro></intro>',
+            directives: [navbar_1.NavbarComponent, header_1.MainHeaderComponent, intro_1.IntroComponent]
         }), 
         __metadata('design:paramtypes', [])
     ], HomeComponent);
