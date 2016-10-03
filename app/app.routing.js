@@ -11,7 +11,7 @@ var appRoutes = [
         }
     },
     {
-        path: '',
+        path: 'home',
         component: home_1.HomeComponent,
         data: {
             title: 'about us'
